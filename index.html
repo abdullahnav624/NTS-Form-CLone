@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+    <form action="">
+        <div style="padding-left: 30px; padding-top: 50px;" class="form">
+            
+            <img style="width: 90%; margin-left: 10px;" src="https://portal.nts.org.pk/app-assets/images/pages/wb/3.png" alt="">
+            <p style="font-size: 25px; font-weight: 900; color: rgb(88, 87, 87); padding-left: 30%;padding-top: 20px;">Candidate Portal</p>
+            
+        <div class="name">
+            <div style="position: relative;" class="content first">
+                <label for="">First Name</label>
+                <i style="position: absolute; top: 30px; left: 15px; color: gray;" class="fa-solid fa-user"></i>
+                <input  type="text" name="First Name" placeholder="First Name" value="" required>
+            </div>
+            <div class="content last">
+                <label for="">Last Name</label>
+                <i style="position: absolute; margin-top: 30px; margin-left: 15px; color: gray;" class="fa-solid fa-user"></i>
+                <input type="text" name="Last Name" placeholder="Last Name" value="" required>
+            </div>
+        </div>
+        
+            <p style="font-size: large; margin-top: 30px;">Select Option*</p>
+            <input style="margin-top: 5px;" type="radio" name="Select Option" value="Pakistani" required>
+            <label for="Pakistani">Pakistani</label><br />
+            <input style="margin-top: 5px;" type="radio" name="Select Option" value="Foreigner" required>
+            <label for="Foreigner">Foreigner</label>
+
+            <div  class="content cnic">
+                <label for="">CNIC/B-FORM:</label>
+                <i style="position: absolute; margin-top: 30px; margin-left: 15px; color: gray;" class="fa-regular fa-file"></i>
+                <input type="number" name="CNIC" value="" placeholder="XXXXXXXXXXXXX" required>
+            </div>
+        <p style="padding-top: 20px; color: red;" >* Note:</p>
+        
+        <ul style="padding-left: 20px; padding-top: 10px; color: red;">
+            <li>Please use your own CNIC number for registration.</li>
+            <li>Please make sure your CNIC is Correct.</li>
+            <li>CNIC,Phone Number and Email can not be changed after registration.</li>
+        </ul>
+        <div class="content mobile">
+            <label for="">Mobile Number</label>
+            <i style="position: absolute; margin-top: 30px; margin-left: 15px; color: gray;"  class="fa-solid fa-phone"></i>
+            <input type="number" name="Mobile Number" placeholder="03XXXXXXXXX" value="" required>
+        </div>
+
+        <p style="padding-top: 20px; color: grey;">*Note:</p>
+        <ul style="padding-left: 20px;padding-top: 10px;padding-right: 20px; color: red;">
+        <li>Please make sure you have not blocked the Business/ unwanted SMS through PTA Instruction by Reg to 3627, if so please unblock by sending sms "Unreg" to 3627 in order to receive SMS alerts from NTS.</li>
+    </ul>
+    <div class="content email">
+        <label for="">Email</label>
+        <i style="position: absolute; margin-top: 30px; margin-left: 15px; color: gray;"  class="fa-solid fa-envelope"></i>
+        <input  type="email" name="Email" placeholder="Email" value="" required>
+    </div>
+
+    <div class="content password">
+        <label for="">Password</label>
+        <i style="position: absolute; margin-top: 30px; margin-left: 15px; color: gray;"  class="fa-solid fa-lock"></i>
+        <input type="password" name="Password" value="" placeholder="*************" required>
+    </div>
+    <div class="content confirm">
+        <label for="">Confirm Password</label>
+        <i style="position: absolute; margin-top: 30px; margin-left: 15px; color: gray;"  class="fa-solid fa-lock"></i>
+        <input type="password" name="Confirm Password" placeholder="*************" value="" required>
+    </div>
+    <div style="padding-top: 20px;">
+        <input  type="checkbox" required>
+        <label  for=""> I agree to the Terms and Conditions.</label>
+    </div>
+    <button style="margin-top: 20px; width: 95%; height: 35px; font-size: large; background-color: #F78410; border: 1px solid #F78410; color: white; display: flex;align-items: center; border-radius: 2px;">
+        <p style="padding-left: 160px;">Sign Up</p>
+        <p style="padding-left: 45%;">></p>
+    </button>
+    <div style="display: flex; justify-content: center; gap: 20px; padding-top: 45px;">
+        <p>Already have an account? </p>
+    <p style="color: blue;">Sign in</p>
+    </div>
+    </div>
+    </form>
+</div>
+</body>
+</html>
